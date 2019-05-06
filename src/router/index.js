@@ -12,7 +12,7 @@ export default new Router ({
   routes: [
     {
       path: '/',
-      name: index,
+      name: 'index',
       component: index,
       meta: {
         keepAlive: true
@@ -20,17 +20,17 @@ export default new Router ({
     },
     {
       path: '/transfer',
-      name: transfer,
+      name: 'transfer',
       component: transfer
     },
     {
       path: '/adddata',
-      name: adddata,
+      name: 'adddata',
       component: adddata
     },
     {
       path: '/clipboard',
-      name: clipboard,
+      name: 'clipboard',
       component: clipboard
     }
   ]
